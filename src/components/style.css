@@ -1,0 +1,52 @@
+.container {
+    background:image-set("../common/images/bg-header-desktop.svg") no-repeat;
+    padding-top: 70px !important;
+}
+.filter-pane {
+    margin-top: 64px !important;
+    margin-bottom: 40px !important;
+}
+.card {
+    margin: 32px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.detail-pane {
+    justify-content: end;
+}
+.bg-light-grayish-cyan {
+    background-color: hsl(180, 52%, 96%);
+}
+.item-title:hover{
+    color: #198754 !important;
+}
+.tech-item:hover{
+    color: white !important;
+    background-color: #198754 !important;
+}
+.button-close:hover{
+    background-color: black !important;
+}
+.button-clear:hover{
+    color:black !important;
+}
+@media (max-width: 992px) {
+    .item-body {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 768px) {
+    .card {
+        margin: 0px;
+        margin-bottom: 60px;
+    }
+    .content {
+        width: 100%;
+    }
+    .item-image {
+        margin-top: -60px;
+    }
+    .detail-pane {
+        justify-content: left;
+    }
+}
